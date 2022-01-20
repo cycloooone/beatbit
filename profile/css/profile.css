@@ -1,0 +1,131 @@
+body{
+	
+    margin: 0 auto;
+    background: linear-gradient(90deg, #140C2C, #140C01);
+    height: 100vh;
+    padding-bottom: 200px;
+ }
+  /*Monts*/
+ .container{
+ 	width: 900px;
+ 	margin: 0 auto;
+ 	padding-top: 60px;
+ }
+ .profile__row, .profile__left, .profile {
+ 	display: flex;
+ }
+
+ .profile{
+ 	padding: 50px 100px 50px 50px;
+ 	background: #FF9900;
+ 	border-radius: 25px;
+ }
+ .profile__avatar-image-add{
+ 	position: relative;
+ 	top: 159px;
+ 	left: -179px;
+ }
+
+ .mont_bold{
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: bold;
+ }
+ .profile__content-title{
+ 	font-size: 48px;
+ 	color: #2D2D2D;
+ 	position: relative;
+ 	top: 10px;
+ 	left: -150px;
+ }
+ .profile__content-status{
+ 	color: #2F2E2E;
+ 	font-size: 20px;
+ 	text-decoration: none;
+ 	
+ 	left: -150px;
+ 	position: relative;
+ }
+ .profile__content-status-Edit{
+ 	position: relative;
+ 	top: 8px;
+ }
+ .profile__item-info{
+ 	font-size: 15px;
+ 	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+ }
+.profile__item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 50px;
+	width: 100px;
+ }
+.profile__row{
+	position: relative;
+	right: 290px;
+	top: 120px;
+}
+.profile__overall-edit{
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+	right: 310px;
+	bottom: 40px;
+	transition: .9s linear;
+}
+.overall_image{
+	position: relative;
+	bottom: 25px;
+	right: 28px;
+}
+.overall_image:hover{
+	opacity: 80%;
+}
+.profile__overall-edit:hover{
+	color: #fff;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.profile__creation-title{
+	font-size: 48px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+padding-top: 20px;
+	color: #fff;
+}
+.profile__creation-subtitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.orange{
+	color: #FF9900;
+}
+.profile__creation{
+	padding-top: 110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.profile__btn{
+	background: #FF9900;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;	
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px 15px;
+	transition: .8s linear;
+}
+.profile__btn:hover{
+	background: #fff;
+	color: #FF9900;
+}
